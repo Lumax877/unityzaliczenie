@@ -24,7 +24,6 @@ public class DoorScript : MonoBehaviour
 
     private void OpenDoor()
     {
-        // Tutaj możesz dodać animację otwierania drzwi lub zmienić ich widoczność
-        gameObject.SetActive(false); // W tym przykładzie, drzwi znikają
+       gameObject.SetActive(false); 
     }
 }
